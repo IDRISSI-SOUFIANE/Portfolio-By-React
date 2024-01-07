@@ -6,7 +6,7 @@ import Footer from "./Components/5C-Footer/Footer";
 
 function App() {
   return (
-    <div className="container">
+    <div id="up" className="container">
       <Header />
       <Hero />
       <div className="divider" />
@@ -15,6 +15,12 @@ function App() {
       <Contact />
       <div className="divider" />
       <Footer />
+
+      <a href="#up">
+        <button className="scroll2Top">
+          <i className="fa-solid fa-chevron-up"></i>
+        </button>
+      </a>
     </div>
   );
 }

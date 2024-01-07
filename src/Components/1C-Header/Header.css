@@ -96,6 +96,8 @@ header .fixed {
   inset: 0;
   z-index: 11;
   background-color: rgba(40, 40, 48, 0.91);
+  /* filter: blur(8px); => this control text */
+  backdrop-filter: blur(4px); /*this control bcg*/
 }
 
 @keyframes myMove {
