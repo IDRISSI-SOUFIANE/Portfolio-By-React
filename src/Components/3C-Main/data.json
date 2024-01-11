@@ -1,0 +1,53 @@
+[
+  {
+    "ALLPROJECTS": [
+      {
+        "id": "1",
+        "name": "lorem lorem lorem",
+        "desc": "lorem lorem lorem lorem",
+        "category": "all-project",
+        "imgPath": "/images/1.jpg"
+      },
+      {
+        "id": "2",
+        "name": "lorem lorem lorem",
+        "desc": "lorem lorem lorem lorem",
+        "category": "all-project",
+        "imgPath": "/images/2.png"
+      }
+    ]
+  },
+  {
+    "HTMLCSS": [
+      {
+        "id": "3",
+        "name": "lorem lorem lorem",
+        "desc": "lorem lorem lorem lorem",
+        "category": "HTML && CSS",
+        "imgPath": "c"
+      }
+    ]
+  },
+  {
+    "JS": [
+      {
+        "id": "4",
+        "name": "lorem lorem lorem",
+        "desc": "lorem lorem lorem lorem",
+        "category": "JS",
+        "imgPath": "d"
+      }
+    ]
+  },
+  {
+    "REACT": [
+      {
+        "id": "5",
+        "name": "lorem lorem lorem",
+        "desc": "lorem lorem lorem lorem",
+        "category": "REACT",
+        "imgPath": "e"
+      }
+    ]
+  }
+]

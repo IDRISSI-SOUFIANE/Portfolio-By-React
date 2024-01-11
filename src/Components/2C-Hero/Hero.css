@@ -19,6 +19,7 @@ section.hero .left-section {
 }
 section.hero .parent-avatar {
   position: relative;
+  height: 88px;
 }
 
 section.hero img.avatar {

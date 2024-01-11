@@ -1,16 +1,35 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./Hero.css";
 
+import Lottie from "lottie-react";
+import developer from "../../animation/developer.json";
+
+import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
     <section className="hero flex">
       <div className="left-section">
         <div className="parent-avatar">
-          <img src="/public/me.png" alt="me" className="avatar" />
+          <motion.img
+            initial={{ transform: "scale(0)" }}
+            animate={{ transform: "scale(1)" }}
+            transition={{ damping: 5, type: "spring", stiffness: 100 }}
+            src="/images/me.png"
+            alt="me"
+            className="avatar"
+          />
           <i className="check fa-regular fa-circle-check"></i>
         </div>
 
-        <h1 className="name">I'm SOUFIANE IDRISSI I'm Front-End-Developer</h1>
+        <motion.h1
+          className="name"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 10 }}
+        >
+          I'm SOUFIANE IDRISSI I'm Front-End-Developer
+        </motion.h1>
 
         <p className="sub-title">
           hi i am Soufiane Idrissi I am front end developer, and I have many
@@ -26,7 +45,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="right-section animation border">right-section</div>
+      <div className="right-section animation">
+        <Lottie
+          className="contact-animation"
+          style={{ height: 350, transform: "translateY(-40)" }}
+          animationData={developer}
+        />
+      </div>
     </section>
   );
 };

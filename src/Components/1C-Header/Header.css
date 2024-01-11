@@ -68,6 +68,10 @@ header button.mode {
   transition: 0.2s all ease-in-out;
 }
 
+header button.mode i.icon-sun {
+  color: orange;
+}
+
 header button.menu:hover,
 header button.mode:hover {
   color: var(--title);
